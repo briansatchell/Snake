@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html, body {margin: 0px;}
+      body {background: #999;}      
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <title>Snake Game</title>
+  </head>
+  <body>
+  <div id="instruction" style="background: black;color:azure;font-size:35px;text-align: center">
+    Use the arrow keys or swipe on touchscreen
+  </div>
+    <canvas id="canvas" style="display: block;margin: auto;margin-top: 50px;"></canvas>
+    <script src="snake.js"></script>
+    <script type="text/javascript">
+      var g = SNAKE.game({canvas_s: 'canvas'});
+      g.init();
+    </script>
+  </body>
+</html>
