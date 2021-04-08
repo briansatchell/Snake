@@ -2,7 +2,7 @@ var SNAKE = {};
 SNAKE.game = function(sp) {
   //init settings
   const FpsMin = 5;
-  const FpsMax = 30;
+  const FpsMax = 30; 
   const c = document.getElementById("canvas");
   const ctx = c.getContext("2d");
   var that = this;
